@@ -1,0 +1,143 @@
+🔹 Technical Leadership & Architecture
+
+Q1: How do you approach architecting a scalable React application?
+Answer:
+I start by analyzing the application's complexity and growth expectations. Then I:
+
+Break down the UI into reusable components following atomic design principles.
+
+Use React Context API or Redux for scalable state management.
+
+Separate concerns clearly: components, services (API layer), and utilities.
+
+Apply lazy loading and code splitting to improve performance.
+
+Enforce folder and file naming conventions and documentation.
+
+Integrate TypeScript for type safety, enhancing code maintainability.
+
+🔹 React & Frontend Development
+Q2: How do you manage state in a large-scale React application?
+Answer:
+I use a mix of:
+
+Local state: via useState and useReducer for component-level logic.
+
+Context API: for lightweight global needs like theme or auth.
+
+Redux (or Zustand/MobX): for more complex shared states across the app.
+
+I ensure side effects are handled using Redux-Saga or RTK Query.
+
+Memoize selectors and use useMemo/useCallback for performance.
+
+Q3: What are some performance optimizations you apply in React apps?
+Answer:
+
+Use React.memo to avoid unnecessary re-renders.
+
+Debounce inputs (especially in search-heavy UIs).
+
+Code splitting using React.lazy and Suspense.
+
+Virtualize long lists using libraries like react-window.
+
+Optimize images and use SVGs when applicable.
+
+Minimize and lazy-load third-party libraries.
+
+Q4: What’s your experience with TypeScript in React projects?
+Answer:
+I’ve used TypeScript extensively to:
+
+Enforce prop types and ensure contract validity between components.
+
+Define global types and interfaces for consistency.
+
+Reduce runtime errors and improve IDE auto-completion.
+
+Enable better collaboration between frontend and backend via type definitions of API responses.
+
+🔹 Testing & CI/CD
+Q5: How do you ensure code quality and maintainability?
+Answer:
+
+Write unit tests with Jest and integration/E2E tests with Cypress.
+
+Use ESLint and Prettier for consistent code formatting.
+
+Set up Git hooks with Husky to run checks before commits.
+
+Use CI pipelines (e.g., GitHub Actions, Jenkins) to automate builds and run tests on each PR.
+
+Conduct regular code reviews, focusing on readability, test coverage, and performance.
+
+🔹 Leadership & Mentorship
+Q6: How do you lead and mentor a React development team?
+Answer:
+
+Conduct regular code reviews and pair programming sessions.
+
+Organize biweekly knowledge-sharing sessions.
+
+Encourage adoption of best practices via internal documentation and reusable patterns.
+
+Act as a tech sounding board, help unblock devs, and escalate where needed.
+
+Monitor performance and provide constructive feedback for improvement.
+
+Q7: How do you handle disagreements within the dev team?
+Answer:
+
+Encourage open discussion and data-driven decisions (e.g., metrics, benchmarks).
+
+Promote empathy and active listening.
+
+Align the decision with business goals and long-term maintainability.
+
+If unresolved, facilitate a vote or escalate to architecture leads or stakeholders for final direction.
+
+🔹 Collaboration & Agile
+Q8: How do you work with designers and product managers?
+Answer:
+
+Participate in grooming sessions to clarify feasibility and technical constraints.
+
+Collaborate early in the design phase for accessibility, responsiveness, and performance considerations.
+
+Maintain a shared design system to ensure consistency.
+
+Give realistic time estimates and flag risks early.
+
+Q9: Describe your experience with Agile and task management tools.
+Answer:
+
+I’ve led teams in Agile environments using Jira and Confluence.
+
+I conduct daily stand-ups, retrospectives, and sprint planning.
+
+Track velocity and use burndown charts to ensure progress.
+
+I use Jira dashboards for real-time visibility and status updates.
+
+🔹 Preferred Skills
+Q10: Have you used Next.js in your projects?
+Answer:
+Yes, I’ve used Next.js for server-side rendering and static site generation. It improves SEO, performance, and reduces the initial load time. I’ve integrated it with API routes, image optimization, and dynamic routing.
+
+Q11: Do you have experience with GraphQL and Apollo Client?
+Answer:
+Yes. I’ve implemented GraphQL APIs and used Apollo Client in React apps for efficient data fetching, caching, and state management. I prefer GraphQL over REST when dealing with complex relational data due to its flexibility and reduced over-fetching.
+
+Q12: How do you keep up with frontend trends?
+Answer:
+I regularly:
+
+Follow key React and frontend newsletters (like React Status, JavaScript Weekly).
+
+Attend tech conferences and local meetups.
+
+Explore RFCs and changelogs for React/TypeScript.
+
+Contribute to open-source and write tech blogs to reinforce my learning.
+
